@@ -1,0 +1,20 @@
+# Python-кеш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# База данных SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
